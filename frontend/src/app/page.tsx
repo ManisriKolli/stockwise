@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, ResponsiveContainer } from "recharts";
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
 import { ArrowUp, ArrowDown } from "lucide-react";
 import Sidebar from "@/components/Sidebar";
 import AuthModal from "@/components/AuthModal";
@@ -83,8 +83,10 @@ export default function Home() {
           apiCache.set('stockHistory', searchQuery, history);
         }
         
-        const formattedHistory = history.slice(0, 30).map(item => ({
-          day: new Date(item.date).getDate(),
+        const sortedHistory = [...history].sort((a, b) => new Date(a.date) - new Date(b.date));
+        const formattedHistory = sortedHistory.slice(0, 30).map((item, index) => ({
+          day: index + 1,
+          date: new Date(item.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }),
           price: item.close
         }));
         
@@ -302,7 +304,7 @@ export default function Home() {
     }
   };
   
-  const analyzeSentimentText = async (text: string) => {
+  const analyzeSentimentText = async (text) => {
     try {
       const response = await fetch("/api/sentiment", {
         method: "POST",
@@ -363,7 +365,7 @@ export default function Home() {
       try {
         const added = await addToWatchlist(
           stockData.symbol,
-          searchQuery // Use the search query as the company name
+          searchQuery
         );
         
         if (added) {
@@ -451,6 +453,7 @@ export default function Home() {
                       <CartesianGrid strokeDasharray="3 3" stroke="#333" />
                       <XAxis dataKey="day" stroke="#fff" tick={{fontSize: 12}} />
                       <YAxis stroke="#fff" tick={{fontSize: 12}} />
+                      <Tooltip labelFormatter={(value) => `Date: ${stockHistory[value-1]?.date || value}`} />
                       <Line 
                         type="monotone" 
                         dataKey="price" 
