@@ -10,10 +10,12 @@ import { usePolygon } from "@/lib/alphaVantageService";
 import { useWatchlist } from "@/hooks/useWatchlist";
 
 const apiCache = {
-  stockData: new Map(),
-  stockHistory: new Map(),
-  newsData: new Map(),
-  sentimentData: new Map(),
+  caches: {
+    stockData: new Map(),
+    stockHistory: new Map(),
+    newsData: new Map(),
+    sentimentData: new Map()
+  },
   
   expirations: {
     stockData: 5 * 60 * 1000,
@@ -23,11 +25,11 @@ const apiCache = {
   },
   
   get: function(type, key) {
-    const cacheItem = this[type].get(key);
+    const cacheItem = this.caches[type].get(key);
     if (!cacheItem) return null;
     
     if (Date.now() - cacheItem.timestamp > this.expirations[type]) {
-      this[type].delete(key);
+      this.caches[type].delete(key);
       return null;
     }
     
@@ -35,7 +37,7 @@ const apiCache = {
   },
   
   set: function(type, key, data) {
-    this[type].set(key, {
+    this.caches[type].set(key, {
       data,
       timestamp: Date.now()
     });
