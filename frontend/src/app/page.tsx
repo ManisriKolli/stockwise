@@ -302,19 +302,14 @@ export default function Home() {
     }
   };
   
-  const analyzeSentimentText = async (text) => {
+  const analyzeSentimentText = async (text: string) => {
     try {
-      const response = await fetch("https://km3tlwj9lafd9sn0.us-east-1.aws.endpoints.huggingface.cloud", {
+      const response = await fetch("/api/sentiment", {
         method: "POST",
         headers: {
-          "Accept": "application/json",
-          "Authorization": `Bearer ${process.env.HUGGINGFACE_API_KEY}`,
           "Content-Type": "application/json"
         },
-        body: JSON.stringify({
-          inputs: text,
-          parameters: {}
-        })
+        body: JSON.stringify({ text })
       });
       
       if (!response.ok) {
@@ -340,7 +335,6 @@ export default function Home() {
         score: score,
         label: sentimentLabel.toUpperCase()
       };
-      
     } catch (error) {
       return null;
     }
