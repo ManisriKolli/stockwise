@@ -308,7 +308,7 @@ export default function Home() {
         method: "POST",
         headers: {
           "Accept": "application/json",
-          "Authorization": `Bearer ${process.env.HUGGINGFACE_API_KEY}`,
+          "Authorization": `${process.env.NEXT_PUBLIC_HUGGINGFACE_API_KEY}`,
           "Content-Type": "application/json"
         },
         body: JSON.stringify({
