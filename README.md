@@ -4,7 +4,7 @@ StockWise is a Next.js application that provides stock market tracking, analysis
 
 ## [Live Demo](https://stockwise-teal.vercel.app) | [GitHub Repository](https://github.com/ManisriKolli/stockwise)
 
-![StockWise Dashboard](public/screenshot.png)
+![StockWise Dashboard](screenshot.png)
 
 ## Features
 
