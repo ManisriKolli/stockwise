@@ -344,12 +344,50 @@ export default function Home() {
     }
   };
   
+  const calculateStockDirection = () => {
+    // If we don't have stock data yet, return default
+    if (!stockData) return "down";
+    
+    // Initialize weighted factors
+    const sentimentWeight = 0.4;
+    const rsiWeight = 0.3;
+    const maWeight = 0.2;
+    const priceChangeWeight = 0.1; // Reduced weight for raw price change
+    
+    // Calculate sentiment factor (above 0.5 is positive)
+    const sentimentFactor = sentimentScore > 0.5 ? 1 : -1;
+    
+    // Calculate RSI factor (less than 30 is oversold/bullish, more than 70 is overbought/bearish)
+    let rsiFactor = 0;
+    if (rsiValue < 30) rsiFactor = 1; // Oversold - bullish
+    else if (rsiValue > 70) rsiFactor = -1; // Overbought - bearish
+    else rsiFactor = 0; // Neutral
+    
+    // Moving average factor
+    const maFactor = movingAvgSignal === "bullish" ? 1 : 
+                    (movingAvgSignal === "bearish" ? -1 : 0);
+    
+    // Price change factor
+    const priceFactor = stockData.change > 0 ? 1 : -1;
+    
+    // Calculate weighted direction score
+    const directionScore = 
+      (sentimentFactor * sentimentWeight) + 
+      (rsiFactor * rsiWeight) + 
+      (maFactor * maWeight) + 
+      (priceFactor * priceChangeWeight);
+    
+    // Determine direction based on weighted score
+    return directionScore >= 0 ? "up" : "down";
+  };
+  
   const openAuthModal = (view) => {
     setAuthView(view);
     setIsAuthModalOpen(true);
   };
   
-  const stockDirection = stockData?.change > 0 ? "up" : "down";
+  // Calculate stockDirection using our new comprehensive method
+  const stockDirection = calculateStockDirection();
   
   const handleSearch = (e) => {
     e.preventDefault();
@@ -591,12 +629,29 @@ export default function Home() {
             <div className="col-span-1 space-y-4">
               <div className="bg-black rounded border border-gray-800 p-4 text-center">
                 <h2 className="text-lg font-medium mb-2">Prediction</h2>
-                <div className="flex justify-center mb-2">
+                <div className="flex justify-center mb-2 relative group">
+                  <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 bg-zinc-800 text-xs text-white p-2 rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 w-64 z-10 pointer-events-none">
+                    <p className="font-semibold mb-1">Prediction Formula:</p>
+                    <div className="space-y-1 text-left">
+                      <p><span className="font-medium">Sentiment (40%):</span> {sentimentScore > 0.5 ? "Positive" : "Negative"}</p>
+                      <p><span className="font-medium">RSI (30%):</span> {rsiValue} {rsiValue < 30 ? "(Bullish)" : rsiValue > 70 ? "(Bearish)" : "(Neutral)"}</p>
+                      <p><span className="font-medium">Moving Avg (20%):</span> {movingAvgSignal.charAt(0).toUpperCase() + movingAvgSignal.slice(1)}</p>
+                      <p><span className="font-medium">Price Change (10%):</span> {stockData?.change >= 0 ? "Positive" : "Negative"}</p>
+                    </div>
+                    <div className="mt-2 pt-1 border-t border-zinc-700">
+                      <p className="text-right text-zinc-400">Hover for calculation details</p>
+                    </div>
+                  </div>
+                  
                   {stockDirection === "up" ? (
                     <ArrowUp size={60} className="text-green-500" />
                   ) : (
                     <ArrowDown size={60} className="text-red-500" />
                   )}
+                  
+                  <div className="absolute top-0 right-0 w-5 h-5 flex items-center justify-center rounded-full bg-zinc-800 text-white text-xs">
+                    i
+                  </div>
                 </div>
                 <p className="text-5xl font-bold mb-4">{stockDirection.toUpperCase()}</p>
                 <div className="text-sm mb-4">

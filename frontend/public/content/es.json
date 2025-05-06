@@ -1,0 +1,211 @@
+{
+    "title": "Mercado Bursátil 101",
+    "intro": "¡Bienvenido a StockWise! Esta guía te introducirá a los conceptos básicos del mercado bursátil y estrategias de inversión en términos sencillos. Ya seas completamente nuevo en inversiones o busques repasar los fundamentos, te cubrimos con explicaciones fáciles de entender.",
+    "appFeatures": {
+      "title": "Características de StockWise",
+      "description": "Nuestra aplicación proporciona varias herramientas para ayudarte a tomar decisiones de inversión informadas:",
+      "features": [
+        {
+          "title": "Buscar Acciones",
+          "description": "Introduce un símbolo bursátil (por ejemplo, AAPL para Apple) en la barra de búsqueda para ver información detallada, gráficos de precios e indicadores técnicos. Si no conoces el símbolo, puedes buscar por nombre de empresa."
+        },
+        {
+          "title": "Lista de Seguimiento",
+          "description": "Agrega acciones a tu lista de seguimiento personal para monitorear su rendimiento a lo largo del tiempo. Esta función te ayuda a seguir el rastro de empresas que te interesan sin tener que buscarlas repetidamente. Necesitarás crear una cuenta gratuita para usar esta función."
+        },
+        {
+          "title": "Análisis Técnico",
+          "description": "Proporcionamos indicadores técnicos fáciles de entender como RSI y Medias Móviles que te ayudan a identificar potenciales oportunidades de compra y venta. No te preocupes si estos términos no te son familiares - los explicaremos en detalle a continuación."
+        },
+        {
+          "title": "Operaciones de Insiders",
+          "description": "Observa compras y ventas recientes de acciones por ejecutivos y miembros del consejo de administración. Estos 'insiders' a menudo tienen información valiosa sobre las perspectivas de su empresa, por lo que su actividad comercial puede proporcionar información útil para tus decisiones de inversión."
+        },
+        {
+          "title": "Sentimiento de Noticias",
+          "description": "Analizamos automáticamente los titulares de noticias para evaluar el sentimiento del mercado para las acciones que te interesan. Las noticias positivas pueden indicar un movimiento alcista (hacia arriba) del precio, mientras que las noticias negativas podrían sugerir tendencias bajistas (hacia abajo)."
+        }
+      ]
+    },
+    "stockBasics": {
+      "title": "Conceptos Básicos del Mercado Bursátil",
+      "description": "Antes de sumergirnos en análisis detallados, entendamos algunos conceptos fundamentales:",
+      "sections": [
+        {
+          "title": "¿Qué es una Acción?",
+          "content": "Una acción representa propiedad parcial en una empresa. Cuando compras una acción, literalmente estás adquiriendo una pequeña parte de ese negocio. Como accionista, puedes beneficiarte del crecimiento de la empresa a través del aumento del valor de las acciones y posiblemente recibir dividendos (una porción de las ganancias de la empresa). Las empresas emiten acciones para recaudar dinero para operaciones comerciales, expansión u otras inversiones."
+        },
+        {
+          "title": "Bolsas de Valores",
+          "content": "Las acciones se compran y venden en bolsas - mercados organizados donde compradores y vendedores se encuentran (virtualmente) para intercambiar valores. Las bolsas más famosas en Estados Unidos son la Bolsa de Nueva York (NYSE) y NASDAQ. Cada bolsa tiene requisitos de cotización que las empresas deben cumplir para que sus acciones se negocien allí. La mayoría de los países importantes tienen sus propias bolsas de valores, como la Bolsa de Londres, la Bolsa de Tokio y la Bolsa de Shanghai."
+        },
+        {
+          "title": "Símbolos Bursátiles",
+          "content": "A cada empresa que cotiza en bolsa se le asigna un símbolo único que la identifica en las bolsas. Estos símbolos son típicamente abreviaturas de 1-5 letras del nombre de la empresa. Por ejemplo, el símbolo de Apple es AAPL, el de Microsoft es MSFT y el de Tesla es TSLA. Cuando quieras investigar o comprar una acción, usarás estos símbolos para buscarlos. Algunas empresas eligen símbolos memorables relacionados con su negocio, como CAKE para The Cheesecake Factory."
+        },
+        {
+          "title": "Movimientos de Precios",
+          "content": "Los precios de las acciones cambian constantemente durante las horas de negociación basados en la oferta y la demanda - cuántas personas quieren comprar o vender la acción en un momento dado. Los precios están influenciados por muchos factores incluyendo: rendimiento de la empresa (ganancias, nuevos productos), condiciones económicas (tasas de interés, inflación), tendencias de la industria, eventos noticiosos y sentimiento del mercado. Mayor demanda relativa a la oferta empuja los precios hacia arriba, mientras que mayor oferta relativa a la demanda hace que los precios caigan."
+        }
+      ]
+    },
+    "investingBasics": {
+      "title": "Fundamentos de Inversión",
+      "description": "Antes de hacer tu primera inversión, comprende estos conceptos fundamentales:",
+      "sections": [
+        {
+          "title": "Comprar Bajo, Vender Alto",
+          "content": "El principio fundamental de la inversión exitosa es comprar activos a un precio bajo y venderlos a un precio más alto. Aunque esto suena simple, requiere investigación, paciencia y, a veces, ir contra la opinión popular. Las acciones a menudo se vuelven más atractivas en precio durante las caídas del mercado cuando otros temen comprar. Por el contrario, las acciones pueden sobrevalorase durante períodos de optimismo extremo. Aprender a reconocer el valor relativo es una habilidad esencial para los inversores."
+        },
+        {
+          "title": "Diversificación",
+          "content": "La diversificación significa distribuir tus inversiones entre diferentes acciones, sectores y clases de activos en lugar de poner todo tu dinero en una sola inversión. Esta estrategia reduce el riesgo porque si una inversión tiene un rendimiento deficiente, otras podrían tener un buen rendimiento y compensar las pérdidas. Una cartera diversificada podría incluir acciones de varias industrias (tecnología, salud, bienes de consumo), empresas de diferentes tamaños (grandes, medianas, pequeñas), regiones geográficas (nacionales, internacionales) y posiblemente otros activos como bonos o fideicomisos de inversión inmobiliaria (REITs)."
+        },
+        {
+          "title": "Largo Plazo vs Corto Plazo",
+          "content": "La inversión a largo plazo implica mantener activos durante años o incluso décadas, centrándose en el crecimiento fundamental de las empresas en lugar de las fluctuaciones de precios a corto plazo. Este enfoque típicamente conlleva menos riesgo que el trading a corto plazo y requiere un monitoreo menos frecuente. El trading a corto plazo (a veces llamado day trading) implica comprar y vender activos en plazos cortos - a veces minutos, horas o días - para beneficiarse de la volatilidad de precios. Esto requiere mucho más tiempo, experiencia y disciplina emocional, y conlleva riesgos significativamente más altos para principiantes."
+        },
+        {
+          "title": "La Investigación es Clave",
+          "content": "La inversión exitosa comienza con una investigación exhaustiva. Antes de invertir en cualquier empresa, aprende sobre su modelo de negocio, ventajas competitivas, salud financiera, perspectivas de crecimiento y tendencias de la industria. Revisa los estados financieros (estado de resultados, balance general, estado de flujo de efectivo) para evaluar la rentabilidad, niveles de deuda y cómo la empresa utiliza eficientemente sus recursos. Considera también factores cualitativos: calidad de gestión, fortaleza de marca y potencial de innovación. Herramientas como nuestra aplicación proporcionan estos conocimientos en un formato accesible."
+        }
+      ]
+    },
+    "marketSentiment": {
+      "title": "Mercados Alcistas vs Bajistas",
+      "description": "Los términos 'alcista' y 'bajista' describen el sentimiento general o actitud en el mercado. Entender estos conceptos te ayuda a alinear tu estrategia de inversión con las condiciones actuales del mercado.",
+      "sections": [
+        {
+          "title": "Mercado Alcista",
+          "content": "Un mercado alcista (o 'bull market') se caracteriza por precios de acciones en ascenso y sentimiento optimista de los inversores. Durante períodos alcistas, los inversores generalmente esperan que los precios continúen subiendo. Se dice que los toros atacan empujando sus cuernos hacia arriba - justo como los precios en un mercado en ascenso. Los mercados alcistas a menudo coinciden con un fuerte crecimiento económico, bajo desempleo y alta confianza del consumidor. Pueden durar meses o incluso años.",
+          "strategy": "Estrategia de Inversión Durante Mercados Alcistas: Durante mercados alcistas, las estrategias orientadas al crecimiento suelen tener un buen rendimiento. Considera invertir en empresas con fuerte potencial de crecimiento que podrían beneficiarse del entorno económico positivo. Aunque las acciones pueden parecer caras durante mercados alcistas, a menudo continúan subiendo, por lo que agregar regularmente a tus inversiones (promediación de costos en dólares) puede ser efectivo. Aun así, mantén la diversificación ya que los mercados alcistas eventualmente terminan."
+        },
+        {
+          "title": "Mercado Bajista",
+          "content": "Un mercado bajista (o 'bear market') presenta precios de acciones en descenso y sentimiento pesimista de los inversores. Se dice que los osos atacan golpeando sus garras hacia abajo - similar a los precios en descenso. Los mercados bajistas se definen técnicamente como una caída del 20% o más desde máximos recientes. A menudo coinciden con recesiones económicas, aumento del desempleo o incertidumbre significativa. Los mercados bajistas típicamente duran períodos más cortos que los mercados alcistas pero pueden ser más intensos.",
+          "strategy": "Estrategia de Inversión Durante Mercados Bajistas: Durante mercados bajistas, las estrategias defensivas se vuelven importantes. Concéntrate en empresas con flujos de caja estables, balances sólidos (baja deuda) e historiales de superar recesiones económicas. Productos básicos de consumo, servicios públicos y empresas de salud a menudo disminuyen menos que el mercado general durante las caídas. Los mercados bajistas pueden presentar excelentes oportunidades de compra para inversores a largo plazo, ya que empresas de alta calidad están disponibles a precios con descuento."
+        },
+        {
+          "title": "Identificando la Dirección del Mercado",
+          "content": "Varios indicadores ayudan a identificar si estamos en un mercado alcista o bajista: (1) Tendencias de Precios: El indicador más obvio es si los principales índices del mercado (como el S&P 500) muestran tendencia al alza o a la baja durante varios meses. (2) Medias Móviles: Cuando los precios se negocian por encima de las medias móviles a largo plazo, eso es típicamente alcista; negociar por debajo es bajista. (3) Volumen de Negociación: Mayor volumen durante aumentos de precio puede confirmar sentimiento alcista; mayor volumen durante descensos podría confirmar sentimiento bajista. (4) Indicadores de Amplitud: Medidas de cuántas acciones están avanzando versus descendiendo. (5) Indicadores Económicos: Datos de empleo, crecimiento del PIB y confianza del consumidor a menudo se correlacionan con la dirección del mercado."
+        }
+      ]
+    },
+    "priceTerminology": {
+      "title": "Terminología de Precios de Acciones",
+      "description": "Al mirar datos de acciones, encontrarás varios puntos de precio clave. Entender estos términos te ayuda a interpretar los movimientos de precios más efectivamente:",
+      "sections": [
+        {
+          "title": "Cierre Anterior",
+          "content": "El Cierre Anterior es el precio final al que se negoció una acción en el día de negociación previo antes de que el mercado cerrara. Esto sirve como un punto de referencia importante para medir el rendimiento del día actual. Cuando ves valores de 'cambio' o 'cambio porcentual' para una acción, típicamente están comparando el precio actual con el cierre anterior. Por ejemplo, si una acción cerró a $50 ayer y actualmente se negocia a $52, ha ganado $2 o 4% desde el cierre anterior."
+        },
+        {
+          "title": "Apertura",
+          "content": "La Apertura se refiere al precio al que una acción se negocia por primera vez cuando el mercado abre para el día de negociación actual. Esto puede diferir del cierre anterior porque noticias o eventos pueden haber ocurrido durante la noche cuando los mercados estaban cerrados. Una brecha significativa entre el cierre anterior y la apertura a menudo indica desarrollos importantes que afectan a la acción. Por ejemplo, si una empresa reporta ganancias después del cierre del mercado que superan las expectativas, la acción podría abrir mucho más alta al día siguiente."
+        },
+        {
+          "title": "Máximo",
+          "content": "El Máximo representa el precio más alto al que se negoció una acción durante un período específico (típicamente el día de negociación actual). Esto muestra el valor máximo que los compradores estaban dispuestos a pagar durante ese período de tiempo. Comparar el máximo con la apertura o cierre anterior ayuda a medir el impulso y la volatilidad de la acción. Un precio máximo significativamente por encima de la apertura podría indicar un fuerte interés de compra, mientras que un máximo justo ligeramente por encima de la apertura sugiere un entusiasmo más restringido."
+        },
+        {
+          "title": "Mínimo",
+          "content": "El Mínimo es el precio más bajo al que se negoció una acción durante el período especificado. Esto indica el valor mínimo al que los vendedores estaban dispuestos a desprenderse de sus acciones. La diferencia entre el máximo y el mínimo del día (el rango del día) es una medida importante de volatilidad. Un amplio rango entre máximo y mínimo sugiere un descubrimiento de precio significativo o incertidumbre, mientras que un rango estrecho indica más estabilidad de precios y posiblemente menor interés comercial."
+        },
+        {
+          "title": "Precio Actual",
+          "content": "El Precio Actual es el precio más reciente al que se ha negociado la acción. Durante las horas de mercado, esto se actualiza frecuentemente a medida que ocurren nuevas transacciones. Después de horas, este sigue siendo el precio de cierre hasta el siguiente día de negociación. La relación entre el precio actual y otros puntos de precio (apertura, máximo, mínimo, cierre anterior) ayuda a contar la 'historia' de la acción para el día y puede proporcionar pistas sobre el sentimiento del comerciante y la posible dirección futura."
+        },
+        {
+          "title": "Rango de Negociación",
+          "content": "El Rango de Negociación se refiere a la diferencia entre los precios máximo y mínimo durante un período dado. Un amplio rango de negociación indica mayor volatilidad y posiblemente noticias significativas o eventos que afectan a la acción. Un rango estrecho sugiere una acción de precio más estable y potencialmente menor interés de los inversores. Algunos operadores se especializan en estrategias 'limitadas por rango', comprando cerca del fondo de un rango establecido y vendiendo cerca de la parte superior."
+        }
+      ]
+    },
+    "keyIndicators": {
+      "title": "Indicadores Técnicos Clave Explicados",
+      "description": "Los indicadores técnicos ayudan a identificar potenciales oportunidades comerciales analizando patrones de precios y comportamiento del mercado. Aquí están los principales indicadores utilizados en nuestra aplicación:",
+      "indicators": [
+        {
+          "name": "RSI (Índice de Fuerza Relativa)",
+          "description": "El Índice de Fuerza Relativa (RSI) mide la velocidad y magnitud de los cambios recientes de precio de una acción para evaluar si actualmente está sobrevalorada (sobrecomprada) o infravalorada (sobrevendida). Los valores de RSI varían de 0 a 100. La interpretación tradicional sugiere que valores de RSI por encima de 70 indican que una acción está sobrecomprada y podría estar lista para una corrección de precio (caída), mientras que valores por debajo de 30 sugieren que una acción está sobrevendida y podría estar lista para un rebote (subida). El RSI se calcula comparando la ganancia promedio con la pérdida promedio durante un período específico, típicamente 14 días.",
+          "interpretation": "Cómo usar RSI: Cuando el RSI cae por debajo de 30, puede señalar una buena oportunidad de compra ya que la acción podría estar infravalorada. Observa que el RSI comience a subir nuevamente por encima de 30, lo que podría confirmar que el impulso descendente se está debilitando. Por el contrario, cuando el RSI sube por encima de 70, considera tomar ganancias o reducir posiciones, especialmente si el RSI comienza a caer nuevamente por debajo de 70. Este indicador funciona mejor en combinación con otros análisis en lugar de forma aislada."
+        },
+        {
+          "name": "Medias Móviles",
+          "description": "Las Medias Móviles suavizan los datos de precios para crear una sola línea fluida, facilitando la identificación de la dirección de la tendencia. Reducen el ruido de las fluctuaciones aleatorias de precios promediando los precios durante un período de tiempo específico. Períodos comunes incluyen medias móviles de 50 días y 200 días. Hay diferentes tipos de medias móviles: Media Móvil Simple (SMA) da igual peso a todos los precios, mientras que la Media Móvil Exponencial (EMA) da más peso a los precios recientes.",
+          "interpretation": "Cómo usar Medias Móviles: Cuando una media móvil a corto plazo (como 50 días) cruza por encima de una a largo plazo (como 200 días), se llama 'cruce dorado' y se considera alcista (potencialmente señalando futuros aumentos de precio). Cuando la media a corto plazo cruza por debajo de la de largo plazo, se llama 'cruce de muerte' y se considera bajista. Adicionalmente, las medias móviles a menudo actúan como niveles de soporte (el precio tiende a rebotar hacia arriba desde ellas) o resistencia (el precio tiende a rebotar hacia abajo desde ellas)."
+        },
+        {
+          "name": "Volumen",
+          "description": "El Volumen se refiere al número total de acciones negociadas durante un período dado. Indica el nivel de interés o actividad en una acción. Alto volumen a menudo acompaña movimientos significativos de precios, mientras que bajo volumen puede sugerir falta de convicción en la dirección de precio actual. El volumen puede confirmar tendencias - precios en aumento con volumen en aumento generalmente indica una fuerte tendencia alcista, mientras que precios en descenso con volumen en aumento sugiere una fuerte tendencia bajista.",
+          "interpretation": "Cómo usar el Volumen: Busca picos de volumen que coincidan con breakouts de precio (cuando el precio se mueve por encima de la resistencia o por debajo del soporte). Alto volumen sugiere fuerte convicción detrás del movimiento. Por el contrario, si el precio hace un gran movimiento con bajo volumen, el movimiento puede carecer de poder de permanencia y podría revertirse. El volumen tiende a liderar el precio - volumen decreciente durante una tendencia de precio podría señalar que la tendencia se está debilitando antes de que ocurra una reversión real de precio."
+        },
+        {
+          "name": "Capitalización de Mercado",
+          "description": "La Capitalización de Mercado (Market Cap) representa el valor total de mercado en dólares de las acciones en circulación de una empresa. Se calcula multiplicando el precio actual de la acción por el número total de acciones en circulación. La capitalización de mercado ayuda a categorizar empresas por tamaño: Grandes (Large-cap, $10+ mil millones), Medianas (Mid-cap, $2-10 mil millones) y Pequeñas (Small-cap, menos de $2 mil millones).",
+          "interpretation": "Cómo usar la Capitalización de Mercado: La capitalización de mercado ayuda a entender el tamaño relativo, estabilidad y potencial de crecimiento de una empresa. Las empresas de gran capitalización típicamente ofrecen más estabilidad pero potencialmente crecimiento más lento. Las empresas de pequeña capitalización pueden ofrecer mayor potencial de crecimiento pero con mayor riesgo. Al construir una cartera diversificada, considera incluir empresas con diferentes capitalizaciones de mercado para equilibrar el potencial de crecimiento con estabilidad."
+        }
+      ]
+    },
+    "rsiTrading": {
+      "title": "Operando con RSI",
+      "description": "El Índice de Fuerza Relativa (RSI) es uno de los indicadores técnicos más populares para cronometrar decisiones de compra y venta. Así es como usar los valores de RSI para tomar decisiones comerciales estratégicas:",
+      "sections": [
+        {
+          "title": "Cuando el RSI está Por Debajo de 30 (Sobrevendido)",
+          "content": "Cuando el RSI cae por debajo de 30, indica que una acción puede estar sobrevendida - lo que significa que los vendedores potencialmente han llevado el precio a la baja más de lo que justifican los fundamentos de la empresa. Esta presión de venta excesiva a menudo crea oportunidades de compra para operadores observadores. Una condición de sobreventa sugiere que el impulso de venta está alcanzando el agotamiento y el precio puede estar listo para un rebote.",
+          "strategy": "Estrategia de Compra Cuando el RSI está Por Debajo de 30: Espera la confirmación de una potencial reversión en lugar de comprar inmediatamente cuando el RSI cae por debajo de 30. Busca que el RSI comience a moverse nuevamente por encima del umbral de 30, lo que sugiere que el impulso descendente se está debilitando. Las señales de compra más fuertes a menudo vienen cuando el RSI forma una 'divergencia alcista' - donde el precio hace un nuevo mínimo pero el RSI hace un mínimo más alto, indicando un debilitamiento del impulso descendente. Combina esta señal con otros indicadores favorables como medias móviles de apoyo o sentimiento de noticias positivo para una confirmación más fuerte."
+        },
+        {
+          "title": "Cuando el RSI está Por Encima de 70 (Sobrecomprado)",
+          "content": "Cuando el RSI sube por encima de 70, indica que una acción puede estar sobrecomprada - lo que significa que los compradores potencialmente han llevado el precio al alza más de lo que justifican los fundamentos. Esta presión de compra excesiva a menudo crea oportunidades de venta o toma de ganancias. Una condición de sobrecompra sugiere que el impulso de compra puede estar alcanzando el agotamiento y el precio podría estar listo para una retracción.",
+          "strategy": "Estrategia de Venta Cuando el RSI está Por Encima de 70: Como con las condiciones de sobreventa, espera la confirmación en lugar de vender inmediatamente cuando el RSI excede 70. Observa que el RSI comience a caer nuevamente por debajo del umbral de 70, lo que sugiere que el impulso ascendente se está debilitando. Busca 'divergencia bajista' - donde el precio hace un nuevo máximo pero el RSI hace un máximo más bajo, indicando un debilitamiento del impulso ascendente. Esta puede ser una señal poderosa para tomar ganancias o reducir posiciones. Recuerda que en mercados alcistas fuertes, el RSI puede permanecer en territorio de sobrecompra durante períodos prolongados, por lo que confirmación adicional es valiosa."
+        },
+        {
+          "title": "Divergencia de RSI",
+          "content": "La divergencia de RSI ocurre cuando la dirección de la tendencia de precio no coincide con la dirección de la tendencia de RSI. Este desajuste a menudo señala una potencial reversión de tendencia. Hay dos tipos de divergencia a observar: (1) Divergencia Alcista: Cuando el precio hace mínimos más bajos, pero el RSI hace mínimos más altos. Esto sugiere que el impulso de precio descendente se está debilitando a pesar de nuevos mínimos de precio. (2) Divergencia Bajista: Cuando el precio hace máximos más altos, pero el RSI hace máximos más bajos. Esto indica que el impulso de precio ascendente se está debilitando a pesar de nuevos máximos de precio.",
+          "strategy": "Cómo Operar con Divergencias de RSI: Las divergencias alcistas proporcionan potenciales oportunidades de compra, particularmente cuando ocurren con RSI por debajo de 30 y comienzan a subir. Las divergencias bajistas sugieren potenciales oportunidades de venta o toma de ganancias, especialmente cuando aparecen con RSI por encima de 70 y comenzando a caer. Para ambos tipos, busca confirmación de otros indicadores o acción del precio antes de tomar decisiones comerciales. Las señales de divergencia más fuertes típicamente se forman durante períodos de tiempo más largos en lugar de marcos de tiempo muy cortos."
+        },
+        {
+          "title": "Limitaciones del RSI",
+          "content": "Aunque el RSI es una herramienta poderosa, tiene limitaciones. Durante tendencias fuertes, el RSI puede permanecer en territorio de sobrecompra o sobreventa durante períodos prolongados sin señalar una reversión. Pueden ocurrir señales falsas, particularmente en mercados altamente volátiles. El RSI funciona mejor en mercados limitados por rangos en lugar de mercados con tendencias fuertes. Siempre usa el RSI en conjunto con otras formas de análisis (investigación fundamental, otros indicadores técnicos, sentimiento del mercado) en lugar de confiar en él exclusivamente.",
+          "strategy": "Mejores Prácticas para Usar RSI: Ajusta tu interpretación de RSI basada en el entorno de mercado más amplio. En mercados alcistas fuertes, considera usar 80 como umbral de sobrecompra y 40 como sobreventa en lugar del tradicional 70/30. En mercados bajistas, 60/20 podría ser más apropiado. Compara lecturas de RSI a través de diferentes marcos de tiempo (diario, semanal, mensual) para un análisis más completo. Más marcos de tiempo mostrando la misma señal aumenta la confianza en la operación potencial."
+        }
+      ]
+    },
+    "signalCalculation": {
+  "title": "Cómo se Calcula Nuestra Señal Combinada",
+  "description": "Nuestra aplicación proporciona una 'Señal Combinada' consolidada que integra múltiples indicadores técnicos y de sentimiento para darte una visión de mercado más completa. Así es como funciona:",
+  "sections": [
+    {
+      "title": "Componentes de la Señal Combinada",
+      "content": "La Señal Combinada amalgama cuatro indicadores primarios, cada uno ponderado de acuerdo a su importancia predictiva en el análisis de mercado. Este enfoque multi-factor ayuda a reducir señales falsas que podrían ocurrir al usar cualquier indicador individual de forma aislada. Los pesos asignados a cada componente se basan en pruebas retrospectivas históricas de su precisión predictiva a través de varias condiciones de mercado."
+    },
+    {
+      "title": "Sentimiento de Noticias (40% de Peso)",
+      "content": "El análisis de sentimiento de noticias examina titulares y artículos recientes sobre una acción para evaluar la percepción del mercado. Utilizamos algoritmos de procesamiento de lenguaje natural para clasificar noticias como positivas, negativas o neutrales. Este componente recibe el peso más alto (40%) porque el flujo de noticias e información a menudo impulsa movimientos de precios a corto plazo antes de que se reflejen en indicadores técnicos. La puntuación de sentimiento varía de 0 (extremadamente negativo) a 1 (extremadamente positivo), con 0.5 representando sentimiento neutral. Una puntuación por encima de 0.6 se considera alcista, mientras que por debajo de 0.4 es bajista."
+    },
+    {
+      "title": "Indicador RSI (30% de Peso)",
+      "content": "El Índice de Fuerza Relativa contribuye con 30% a nuestra Señal Combinada. Los valores de RSI varían de 0 a 100, con lecturas por encima de 70 sugiriendo condiciones de sobrecompra (potencialmente bajistas) y por debajo de 30 indicando condiciones de sobreventa (potencialmente alcistas). Para nuestro cálculo de Señal Combinada, normalizamos el RSI: valores alrededor de 50 sugieren impulso neutral, mientras que valores acercándose a 0 o 100 indican señales bajistas o alcistas más fuertes respectivamente. El componente RSI ayuda a identificar potenciales puntos de reversión basados en el impulso del precio."
+    },
+    {
+      "title": "Señal de Media Móvil (20% de Peso)",
+      "content": "El análisis de Media Móvil contribuye con el 20% a nuestra Señal Combinada. Comparamos medias móviles a corto plazo (5 días) con las de largo plazo (20 días). Cuando la media a corto plazo está por encima de la de largo plazo, genera una señal alcista puntuada en 75. Cuando está por debajo, produce una señal bajista puntuada en 25. Una señal neutral (puntuada en 50) ocurre cuando las medias móviles están muy cerca una de otra. Este componente ayuda a identificar la dirección general de la tendencia y potenciales puntos de giro."
+    },
+    {
+      "title": "Tendencia de Cambio de Precio (10% de Peso)",
+      "content": "La tendencia actual de cambio de precio de la acción contribuye con el 10% final a nuestra Señal Combinada. Este componente simplemente considera si la acción está mostrando actualmente un cambio de precio positivo o negativo en comparación con su cierre anterior. Aunque este es el indicador más básico, proporciona un elemento en tiempo real a nuestro análisis que refleja la actividad más actual del mercado. Un cambio positivo se puntúa como una señal alcista, mientras que un cambio negativo se puntúa como una señal bajista."
+    },
+    {
+      "title": "Cálculo Final",
+      "content": "La Señal Combinada final se calcula: (1) Multiplicando cada componente por su respectivo peso, (2) Sumando estos puntajes ponderados, y (3) Expresando el resultado como un porcentaje de 0-100. Puntajes por encima del 60% indican una señal alcista con valores más altos sugiriendo sentimiento alcista más fuerte. Puntajes por debajo del 40% indican una señal bajista con valores más bajos sugiriendo sentimiento bajista más fuerte. Puntajes entre 40-60% sugieren una perspectiva neutral o mixta. La señal se muestra con un nivel de confianza que representa la fuerza del indicador general."
+    },
+    {
+      "title": "Interpretando la Señal",
+      "content": "Aunque nuestra Señal Combinada proporciona información valiosa, debe ser utilizada como una herramienta en tu proceso de decisión de inversión, no como el único factor determinante. Señales alcistas con alta confianza pueden presentar oportunidades de compra, mientras que señales bajistas con alta confianza podrían sugerir precaución o potenciales oportunidades de venta. Siempre considera el contexto más amplio del mercado, los fundamentos de la empresa, y tus objetivos personales de inversión y tolerancia al riesgo antes de tomar decisiones de inversión."
+    }
+  ]
+},
+    "disclaimer": "Aviso legal: Las inversiones en el mercado bursátil implican riesgo. El rendimiento pasado no es indicativo de resultados futuros. Este contenido educativo no debe considerarse asesoramiento financiero. Siempre realiza tu propia investigación y considera consultar con un profesional financiero antes de tomar decisiones de inversión."
+  }

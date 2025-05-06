@@ -9,11 +9,10 @@ export const useApi = () => {
       
       const headers = {
         'Content-Type': 'application/json',
-        'Authorization': token ? `Bearer ${token}` : '',
+        ...(token ? { 'Authorization': `Bearer ${token}` } : {}),
         ...options.headers
       };
       
-      // Ensure endpoint starts with /api
       const apiEndpoint = endpoint.startsWith('/api') ? endpoint : `/api${endpoint}`;
       
       const response = await fetch(apiEndpoint, {
@@ -28,7 +27,6 @@ export const useApi = () => {
         try {
           error = JSON.parse(errorText);
         } catch {
-          // If response is not JSON, use the default error message
         }
         
         throw new Error(error.message || `API request failed with status ${response.status}`);

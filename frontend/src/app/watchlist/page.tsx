@@ -173,14 +173,6 @@ export default function Watchlist() {
     }
   };
 
-  const handleRefresh = () => {
-    watchlistData.forEach(stock => {
-      finnhubService.fetchAndNotify(stock.symbol);
-    });
-    
-    fetchWatchlistData();
-  };
-
   const handleSort = (column: string) => {
     if (sortBy === column) {
       setSortOrder(sortOrder === "asc" ? "desc" : "asc");
@@ -240,14 +232,7 @@ export default function Watchlist() {
               className="bg-black text-white w-full pl-9 py-1.5 rounded-md border border-gray-800 focus:outline-none text-sm"
             />
           </div>
-          <div className="flex gap-3">
-            <button 
-              onClick={handleRefresh}
-              className="px-3 py-1.5 bg-blue-600 text-sm text-white rounded-md"
-            >
-              Refresh
-            </button>
-          </div>
+          {/* Refresh button has been removed */}
         </div>
 
         <div className="bg-black rounded border border-gray-800 p-4 mb-6">

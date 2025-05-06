@@ -1,0 +1,211 @@
+{
+    "title": "Stock Market 101",
+    "intro": "Welcome to StockWise! This guide will introduce you to the basics of the stock market and investment strategies in simple terms. Whether you're completely new to investing or looking to brush up on fundamentals, we've got you covered with easy-to-understand explanations.",
+    "appFeatures": {
+      "title": "StockWise Features",
+      "description": "Our app provides several tools to help you make informed investment decisions:",
+      "features": [
+        {
+          "title": "Search Stocks",
+          "description": "Enter a stock symbol (e.g., AAPL for Apple) in the search bar to view detailed information, price charts, and technical indicators. If you don't know the symbol, you can search by company name."
+        },
+        {
+          "title": "Watchlist",
+          "description": "Add stocks to your personal watchlist to monitor their performance over time. This feature helps you keep track of companies you're interested in without having to search for them repeatedly. You'll need to create a free account to use this feature."
+        },
+        {
+          "title": "Technical Analysis",
+          "description": "We provide easy-to-understand technical indicators like RSI and Moving Averages that help you identify potential buying and selling opportunities. Don't worry if these terms are unfamiliar - we'll explain them in detail below."
+        },
+        {
+          "title": "Insider Trading",
+          "description": "See recent stock purchases and sales by company executives and board members. These 'insiders' often have valuable information about their company's prospects, so their trading activity can provide useful insights for your investment decisions."
+        },
+        {
+          "title": "News Sentiment",
+          "description": "We automatically analyze news headlines to gauge market sentiment for stocks you're interested in. Positive news may indicate bullish (upward) price movement, while negative news might suggest bearish (downward) trends."
+        }
+      ]
+    },
+    "stockBasics": {
+      "title": "Stock Market Basics",
+      "description": "Before diving into detailed analysis, let's understand some fundamental concepts:",
+      "sections": [
+        {
+          "title": "What is a Stock?",
+          "content": "A stock (also called a share) represents partial ownership in a company. When you buy a stock, you're literally purchasing a small piece of that business. As a shareholder, you may benefit from the company's growth through increased stock value and possibly receive dividends (a portion of the company's profits). Companies issue stocks to raise money for business operations, expansion, or other investments."
+        },
+        {
+          "title": "Stock Exchanges",
+          "content": "Stocks are bought and sold on exchanges - organized marketplaces where buyers and sellers meet (virtually) to trade securities. The most famous exchanges in the United States are the New York Stock Exchange (NYSE) and NASDAQ. Each exchange has listing requirements companies must meet to have their stocks traded there. Most major countries have their own stock exchanges, such as the London Stock Exchange, Tokyo Stock Exchange, and Shanghai Stock Exchange."
+        },
+        {
+          "title": "Stock Symbols",
+          "content": "Each publicly traded company is assigned a unique ticker symbol that identifies it on exchanges. These symbols are typically 1-5 letter abbreviations of the company name. For example, Apple's symbol is AAPL, Microsoft's is MSFT, and Tesla's is TSLA. When you want to research or buy a stock, you'll use these symbols to look them up. Some companies choose memorable symbols that relate to their business - like CAKE for The Cheesecake Factory."
+        },
+        {
+          "title": "Price Movements",
+          "content": "Stock prices change constantly during trading hours based on supply and demand - how many people want to buy or sell the stock at any given moment. Prices are influenced by many factors including: company performance (earnings, new products), economic conditions (interest rates, inflation), industry trends, news events, and market sentiment. Higher demand relative to supply pushes prices up, while higher supply relative to demand causes prices to fall."
+        }
+      ]
+    },
+    "investingBasics": {
+      "title": "Investing Basics",
+      "description": "Before making your first investment, understand these fundamental concepts:",
+      "sections": [
+        {
+          "title": "Buy Low, Sell High",
+          "content": "The fundamental principle of successful investing is to buy assets at a low price and sell them at a higher price. While this sounds simple, it requires research, patience, and sometimes going against popular opinion. Stocks often become most attractively priced during market downturns when others are fearful of buying. Conversely, stocks may become overvalued during periods of extreme optimism. Learning to recognize relative value is an essential skill for investors."
+        },
+        {
+          "title": "Diversification",
+          "content": "Diversification means spreading your investments across different stocks, sectors, and asset classes rather than putting all your money in a single investment. This strategy reduces risk because if one investment performs poorly, others might perform well and offset the losses. A diversified portfolio might include stocks from various industries (technology, healthcare, consumer goods), different-sized companies (large, medium, small), geographic regions (domestic, international), and possibly other assets like bonds or real estate investment trusts (REITs)."
+        },
+        {
+          "title": "Long-term vs Short-term",
+          "content": "Long-term investing involves holding assets for years or even decades, focusing on the fundamental growth of the companies rather than short-term price fluctuations. This approach typically carries less risk than short-term trading and requires less frequent monitoring. Short-term trading (sometimes called day trading) involves buying and selling assets within short timeframes - sometimes minutes, hours, or days - to profit from price volatility. This requires much more time, expertise, and emotional discipline, and carries significantly higher risks for beginners."
+        },
+        {
+          "title": "Research is Key",
+          "content": "Successful investing starts with thorough research. Before investing in any company, learn about its business model, competitive advantages, financial health, growth prospects, and industry trends. Review financial statements (income statement, balance sheet, cash flow statement) to assess profitability, debt levels, and how efficiently the company uses its resources. Consider qualitative factors too: management quality, brand strength, and potential for innovation. Tools like our app provide these insights in an accessible format."
+        }
+      ]
+    },
+    "marketSentiment": {
+      "title": "Bullish vs Bearish Markets",
+      "description": "The terms 'bullish' and 'bearish' describe the overall sentiment or attitude in the market. Understanding these concepts helps you align your investment strategy with current market conditions.",
+      "sections": [
+        {
+          "title": "Bullish Market",
+          "content": "A bullish market (or 'bull market') is characterized by rising stock prices and optimistic investor sentiment. During bullish periods, investors generally expect prices to continue climbing. Bulls are said to attack by thrusting their horns upward - just like prices in a rising market. Bull markets often coincide with strong economic growth, low unemployment, and high consumer confidence. They can last for months or even years.",
+          "strategy": "Investment Strategy During Bullish Markets: During bull markets, growth-oriented strategies often perform well. Consider investing in companies with strong growth potential that might benefit from the positive economic environment. While stocks may seem expensive during bull markets, they often continue to rise, so regularly adding to your investments (dollar-cost averaging) can be effective. Still, maintain diversification as bull markets eventually end."
+        },
+        {
+          "title": "Bearish Market",
+          "content": "A bearish market (or 'bear market') features falling stock prices and pessimistic investor sentiment. Bears are said to attack by swiping their paws downward - similar to declining prices. Bear markets are technically defined as a drop of 20% or more from recent highs. They often coincide with economic recessions, rising unemployment, or significant uncertainty. Bear markets typically last shorter periods than bull markets but can be more intense.",
+          "strategy": "Investment Strategy During Bearish Markets: During bear markets, defensive strategies become important. Focus on companies with stable cash flows, strong balance sheets (low debt), and histories of weathering economic downturns. Consumer staples, utilities, and healthcare companies often decline less than the broader market during downturns. Bear markets can present excellent buying opportunities for long-term investors, as high-quality companies become available at discounted prices."
+        },
+        {
+          "title": "Identifying Market Direction",
+          "content": "Several indicators help identify whether we're in a bullish or bearish market: (1) Price Trends: The most obvious indicator is whether major market indexes (like the S&P 500) are trending up or down over several months. (2) Moving Averages: When prices trade above longer-term moving averages, that's typically bullish; trading below is bearish. (3) Trading Volume: Higher volume during price increases can confirm bullish sentiment; higher volume during declines might confirm bearish sentiment. (4) Breadth Indicators: Measures of how many stocks are advancing versus declining. (5) Economic Indicators: Employment data, GDP growth, and consumer confidence often correlate with market direction."
+        }
+      ]
+    },
+    "priceTerminology": {
+      "title": "Stock Price Terminology",
+      "description": "When looking at stock data, you'll encounter several key price points. Understanding these terms helps you interpret price movements more effectively:",
+      "sections": [
+        {
+          "title": "Previous Close",
+          "content": "The Previous Close is the final price at which a stock traded on the previous trading day before the market closed. This serves as an important reference point for measuring the current day's performance. When you see 'change' or 'percent change' values for a stock, they're typically comparing the current price to the previous close. For example, if a stock closed at $50 yesterday and is currently trading at $52, it has gained $2 or 4% from the previous close."
+        },
+        {
+          "title": "Open",
+          "content": "The Open refers to the price at which a stock first trades when the market opens for the current trading day. This can differ from the previous close because news or events may have occurred overnight when markets were closed. A significant gap between the previous close and open often indicates important developments affecting the stock. For instance, if a company reports earnings after market close that exceed expectations, the stock might open much higher the next day."
+        },
+        {
+          "title": "High",
+          "content": "The High represents the highest price at which a stock traded during a specific time period (typically the current trading day). This shows the maximum value buyers were willing to pay during that timeframe. Comparing the high to the open or previous close helps gauge the stock's momentum and volatility. A high price significantly above the open might indicate strong buying interest, while a high just slightly above the open suggests more restrained enthusiasm."
+        },
+        {
+          "title": "Low",
+          "content": "The Low is the lowest price at which a stock traded during the specified time period. This indicates the minimum value at which sellers were willing to part with their shares. The difference between the high and low of the day (the day's range) is an important measure of volatility. A wide range between high and low suggests significant price discovery or uncertainty, while a narrow range indicates more price stability and possibly lower trading interest."
+        },
+        {
+          "title": "Current Price",
+          "content": "The Current Price is the most recent price at which the stock has traded. During market hours, this updates frequently as new trades occur. After hours, this remains the closing price until the next trading day. The relationship between the current price and other price points (open, high, low, previous close) helps tell the stock's 'story' for the day and can provide clues about trader sentiment and possible future direction."
+        },
+        {
+          "title": "Trading Range",
+          "content": "The Trading Range refers to the difference between the high and low prices during a given period. A wide trading range indicates higher volatility and possibly significant news or events affecting the stock. A narrow range suggests more stable price action and potentially lower investor interest. Some traders specialize in 'range-bound' strategies, buying near the bottom of an established range and selling near the top."
+        }
+      ]
+    },
+    "keyIndicators": {
+      "title": "Key Technical Indicators Explained",
+      "description": "Technical indicators help identify potential trading opportunities by analyzing price patterns and market behavior. Here are the main indicators used in our app:",
+      "indicators": [
+        {
+          "name": "RSI (Relative Strength Index)",
+          "description": "The Relative Strength Index (RSI) measures the speed and magnitude of a stock's recent price changes to evaluate whether it's currently overvalued (overbought) or undervalued (oversold). RSI values range from 0 to 100. Traditional interpretation suggests that RSI values above 70 indicate that a stock is overbought and might be due for a price correction (fall), while values below 30 suggest a stock is oversold and might be due for a rebound (rise). RSI is calculated by comparing the average gain to the average loss over a specified period, typically 14 days.",
+          "interpretation": "How to use RSI: When RSI falls below 30, it may signal a good buying opportunity as the stock could be undervalued. Watch for the RSI to start rising back above 30, which might confirm the downward momentum is weakening. Conversely, when RSI rises above 70, consider taking profits or reducing positions, especially if the RSI begins to fall back below 70. This indicator works best in combination with other analyses rather than in isolation."
+        },
+        {
+          "name": "Moving Averages",
+          "description": "Moving Averages smooth out price data to create a single flowing line, making it easier to identify the direction of the trend. They reduce the noise of random price fluctuations by averaging prices over a specific time period. Common periods include 50-day and 200-day moving averages. There are different types of moving averages: Simple Moving Average (SMA) gives equal weight to all prices, while Exponential Moving Average (EMA) gives more weight to recent prices.",
+          "interpretation": "How to use Moving Averages: When a shorter-term moving average (like 50-day) crosses above a longer-term one (like 200-day), it's called a 'golden cross' and is considered bullish (potentially signaling further price increases). When the shorter-term average crosses below the longer-term one, it's called a 'death cross' and is considered bearish. Additionally, moving averages often act as support (price tends to bounce up from them) or resistance (price tends to bounce down from them) levels."
+        },
+        {
+          "name": "Volume",
+          "description": "Volume refers to the total number of shares traded during a given period. It indicates the level of interest or activity in a stock. High volume often accompanies significant price movements, while low volume may suggest lack of conviction in the current price direction. Volume can confirm trends - rising prices with increasing volume generally indicates a strong uptrend, while falling prices with increasing volume suggests a strong downtrend.",
+          "interpretation": "How to use Volume: Look for volume spikes that coincide with price breakouts (when price moves above resistance or below support). High volume suggests strong conviction behind the move. Conversely, if price makes a big move on low volume, the move may lack staying power and could reverse. Volume tends to lead price - decreasing volume during a price trend might signal the trend is weakening before an actual price reversal occurs."
+        },
+        {
+          "name": "Market Cap",
+          "description": "Market Capitalization (Market Cap) represents the total dollar market value of a company's outstanding shares. It's calculated by multiplying the current share price by the total number of outstanding shares. Market cap helps categorize companies by size: Large-cap ($10+ billion), Mid-cap ($2-10 billion), and Small-cap (under $2 billion).",
+          "interpretation": "How to use Market Cap: Market cap helps understand a company's relative size, stability, and growth potential. Large-cap companies typically offer more stability but potentially slower growth. Small-cap companies may offer higher growth potential but with greater risk. When building a diversified portfolio, consider including companies with different market caps to balance growth potential with stability."
+        }
+      ]
+    },
+    "rsiTrading": {
+      "title": "Trading with RSI",
+      "description": "The Relative Strength Index (RSI) is one of the most popular technical indicators for timing buy and sell decisions. Here's how to use RSI values to make strategic trading choices:",
+      "sections": [
+        {
+          "title": "When RSI is Below 30 (Oversold)",
+          "content": "When RSI drops below 30, it indicates that a stock may be oversold - meaning sellers have potentially driven the price down more than is justified by the company's fundamentals. This excessive selling pressure often creates buying opportunities for observant traders. An oversold condition suggests the selling momentum is reaching exhaustion and the price may be due for a rebound.",
+          "strategy": "Buy Strategy When RSI is Below 30: Wait for confirmation of a potential reversal rather than buying immediately when RSI drops below 30. Look for the RSI to begin moving back above the 30 threshold, which suggests the downward momentum is weakening. The strongest buy signals often come when the RSI forms a 'bullish divergence' - where the price makes a new low but the RSI makes a higher low, indicating weakening downward momentum. Combine this signal with other favorable indicators like supportive moving averages or positive news sentiment for stronger confirmation."
+        },
+        {
+          "title": "When RSI is Above 70 (Overbought)",
+          "content": "When RSI rises above 70, it indicates that a stock may be overbought - meaning buyers have potentially driven the price up more than is justified by fundamentals. This excessive buying pressure often creates selling or profit-taking opportunities. An overbought condition suggests buying momentum may be reaching exhaustion and the price could be due for a pullback.",
+          "strategy": "Sell Strategy When RSI is Above 70: As with oversold conditions, wait for confirmation rather than selling immediately when RSI exceeds 70. Watch for the RSI to start falling back below the 70 threshold, which suggests the upward momentum is weakening. Look for 'bearish divergence' - where price makes a new high but RSI makes a lower high, indicating weakening upward momentum. This can be a powerful signal to take profits or reduce positions. Remember that in strong bull markets, RSI can remain in overbought territory for extended periods, so additional confirmation is valuable."
+        },
+        {
+          "title": "RSI Divergence",
+          "content": "RSI divergence occurs when the direction of the price trend doesn't match the direction of the RSI trend. This mismatch often signals a potential trend reversal. There are two types of divergence to watch for: (1) Bullish Divergence: When price makes lower lows, but RSI makes higher lows. This suggests downward price momentum is weakening despite new price lows. (2) Bearish Divergence: When price makes higher highs, but RSI makes lower highs. This indicates upward price momentum is weakening despite new price highs.",
+          "strategy": "How to Trade RSI Divergences: Bullish divergences provide potential buying opportunities, particularly when they occur with RSI below 30 and begin to rise. Bearish divergences suggest potential selling or profit-taking opportunities, especially when they appear with RSI above 70 and beginning to fall. For both types, look for confirmation from other indicators or price action before making trading decisions. The strongest divergence signals typically form over longer time periods rather than very short timeframes."
+        },
+        {
+          "title": "RSI Limitations",
+          "content": "While RSI is a powerful tool, it has limitations. During strong trends, RSI can remain in overbought or oversold territory for extended periods without signaling a reversal. False signals can occur, particularly in highly volatile markets. RSI works best in range-bound markets rather than strongly trending ones. Always use RSI in conjunction with other forms of analysis (fundamental research, other technical indicators, market sentiment) rather than relying on it exclusively.",
+          "strategy": "Best Practices for Using RSI: Adjust your RSI interpretation based on the broader market environment. In strong bull markets, consider using 80 as an overbought threshold and 40 as oversold instead of the traditional 70/30. In bear markets, 60/20 might be more appropriate. Compare RSI readings across different timeframes (daily, weekly, monthly) for more comprehensive analysis. More timeframes showing the same signal increases confidence in the potential trade."
+        }
+      ]
+    },
+"signalCalculation": {
+  "title": "How Our Combined Signal is Calculated",
+  "description": "Our app provides a consolidated 'Combined Signal' that integrates multiple technical and sentiment indicators to give you a more comprehensive market view. Here's how it works:",
+  "sections": [
+    {
+      "title": "Components of the Combined Signal",
+      "content": "The Combined Signal amalgamates four primary indicators, each weighted according to its predictive importance in market analysis. This multi-factor approach helps reduce false signals that might occur when using any single indicator in isolation. The weights assigned to each component are based on historical backtesting of their predictive accuracy across various market conditions."
+    },
+    {
+      "title": "News Sentiment (40% Weight)",
+      "content": "News sentiment analysis examines recent headlines and articles about a stock to gauge market perception. We use natural language processing algorithms to classify news as positive, negative, or neutral. This component receives the highest weight (40%) because news and information flow often drives short-term price movements before they're reflected in technical indicators. The sentiment score ranges from 0 (extremely negative) to 1 (extremely positive), with 0.5 representing neutral sentiment. A score above 0.6 is considered bullish, while below 0.4 is bearish."
+    },
+    {
+      "title": "RSI Indicator (30% Weight)",
+      "content": "The Relative Strength Index contributes 30% to our Combined Signal. RSI values range from 0 to 100, with readings above 70 suggesting overbought conditions (potentially bearish) and below 30 indicating oversold conditions (potentially bullish). For our Combined Signal calculation, we normalize RSI: values around 50 suggest neutral momentum, while values approaching 0 or 100 indicate stronger bearish or bullish signals respectively. The RSI component helps identify potential reversal points based on price momentum."
+    },
+    {
+      "title": "Moving Average Signal (20% Weight)",
+      "content": "Moving Average analysis contributes 20% to our Combined Signal. We compare short-term moving averages (5-day) to longer-term ones (20-day). When the short-term average is above the long-term average, it generates a bullish signal scored at 75. When below, it produces a bearish signal scored at 25. A neutral signal (scored at 50) occurs when the moving averages are very close to each other. This component helps identify the overall trend direction and potential turning points."
+    },
+    {
+      "title": "Price Change Trend (10% Weight)",
+      "content": "The current stock price change trend contributes the final 10% to our Combined Signal. This component simply considers whether the stock is currently showing a positive or negative price change compared to its previous close. While this is the most basic indicator, it provides a real-time element to our analysis that reflects the most current market activity. A positive change is scored as a bullish signal, while a negative change is scored as a bearish signal."
+    },
+    {
+      "title": "Final Calculation",
+      "content": "The final Combined Signal is calculated by: (1) Multiplying each component by its respective weight, (2) Adding these weighted scores together, and (3) Expressing the result as a percentage from 0-100. Scores above 60% indicate a bullish signal with higher values suggesting stronger bullish sentiment. Scores below 40% indicate a bearish signal with lower values suggesting stronger bearish sentiment. Scores between 40-60% suggest a neutral or mixed outlook. The signal is displayed with a confidence level that represents the strength of the overall indicator."
+    },
+    {
+      "title": "Interpreting the Signal",
+      "content": "While our Combined Signal provides valuable insights, it should be used as one tool in your investment decision process, not as the sole determining factor. High confidence bullish signals may present buying opportunities, while high confidence bearish signals might suggest caution or potential selling opportunities. Always consider the broader market context, company fundamentals, and your personal investment goals and risk tolerance before making investment decisions."
+    }
+  ]
+},
+    "disclaimer": "Disclaimer: Stock market investments involve risk. Past performance is not indicative of future results. This educational content should not be considered financial advice. Always do your own research and consider consulting with a financial professional before making investment decisions."
+  }
